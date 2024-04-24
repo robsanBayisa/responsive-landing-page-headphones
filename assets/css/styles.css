@@ -110,7 +110,7 @@ img {
   padding: 4rem 0 2rem;
 }
 .section__title {
-  font-size: var(--big-font-size);
+  font-size: var(--bigger-font-size);
   text-align: center;
   margin-bottom: var(--mb-2-5);
 }
@@ -119,6 +119,7 @@ img {
   background: var(--text-gradient);
   color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 /*=============== LAYOUT ===============*/
 .main {
@@ -161,8 +162,8 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
-    border-color: var(--body-color);
-    top: -100px;
+    background-color: var(--body-color);
+    top: -100%;
     left: 0;
     width: 100%;
     padding: 4rem 0 3rem;
@@ -258,9 +259,9 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  border-color: var(--black-color);
+  background-color: var(--black-color);
   color: var(--white-color);
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.25rem;
   border-radius: 0.5rem;
   transition: 0.3s;
 }
@@ -313,7 +314,7 @@ img {
 .specs__data:nth-child(4) {
   margin-left: var(--mb-1-5);
 }
-.sponsor__img {
+.specs__img{
   width: 250px;
   position: absolute;
   top: 2rem;
@@ -365,15 +366,15 @@ img {
   gap: 5rem 1.5rem;
   padding-top: 3rem;
 }
-.products__card {
+ .products__card {
   position: relative;
   height: 132px;
-  border-color: var(--container-color);
+  background-color: var(--container-color);
   padding: 0.75rem;
   border-radius: 0.5rem;
   display: grid;
 }
-.products__img {
+/* .products__img {
   width: 80px;
   position: absolute;
   inset: 0;
@@ -397,7 +398,7 @@ img {
   bottom: 0.5rem;
   padding: 0.5rem;
   border-radius: 0.35rem;
-}
+} */
 
 /*=============== FOOTER ===============*/
 
