@@ -374,7 +374,7 @@ img {
   border-radius: 0.5rem;
   display: grid;
 }
-/* .products__img {
+.products__img {
   width: 80px;
   position: absolute;
   inset: 0;
@@ -398,7 +398,7 @@ img {
   bottom: 0.5rem;
   padding: 0.5rem;
   border-radius: 0.35rem;
-} */
+}
 
 /*=============== FOOTER ===============*/
 
